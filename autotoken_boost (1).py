@@ -15,7 +15,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
 # Укажите токен через переменную окружения BOT_TOKEN.
-BOT_TOKEN = "9180340777:AAEGDqGWHBtnAQb9wooL057CH2TrMJMTVuc"
+BOT_TOKEN = "BOT_TOKEN"
 if not BOT_TOKEN:
     raise RuntimeError(
         "Не задан BOT_TOKEN. Установите токен бота в переменной окружения."
